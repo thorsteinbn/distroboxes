@@ -26,6 +26,9 @@ jobs:
   build:
     needs: generate-matrix
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
 
     strategy:
       matrix: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}

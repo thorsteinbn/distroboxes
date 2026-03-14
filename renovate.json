@@ -16,5 +16,13 @@
       "datasourceTemplate": "{{datasource}}",
       "depNameTemplate": "{{depName}}"
     }
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "tofuutils/tenv"
+      ],
+      "automerge": true
+    }
   ]
 }

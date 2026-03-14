@@ -1,8 +1,7 @@
 FROM debian:trixie
 
-ENV FOO=BAR\
-    # renovate: datasource=github-releases depName=tofuutils/tenv
-    TENV_VERSION=v4.9.3
+# renovate: datasource=github-releases depName=tofuutils/tenv
+ENV TENV_VERSION=v4.9.3
 
 RUN apt update && apt install -y \
     git \

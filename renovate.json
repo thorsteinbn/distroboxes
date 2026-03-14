@@ -9,7 +9,12 @@
       "matchStringsStrategy": "any",
       "matchStrings": [
         "# renovate: datasource=(?<datasource>[^\\s]+) depName=(?<depName>[^\\s]+)\\s*\\n\\s*[^\\s]+=(?<currentValue>[^\\s]+)"
-      ]
+      ],
+      "managerFilePatterns": [
+        "**/Containerfile"
+      ],
+      "datasourceTemplate": "{{datasource}}",
+      "depNameTemplate": "{{depName}}"
     }
   ]
 }

@@ -8,7 +8,7 @@
       "customType": "regex",
       "matchStringsStrategy": "any",
       "matchStrings": [
-        "# renovate: datasource=(?<datasource>[^\\s]+) depName=(?<depName>[^\\s]+)\\s*\\n\\s*[^\\s]+=(?<currentValue>[^\\s]+)"
+        "# renovate: datasource=(?<datasource>[^\\s]+) depName=(?<depName>[^\\s]+)\\s*\\n\\s*[^\\s]*\\s*[^\\s]+=(?<currentValue>[^\\s\\\\]+)"
       ],
       "managerFilePatterns": [
         "**/Containerfile"

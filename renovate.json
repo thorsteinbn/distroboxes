@@ -20,7 +20,8 @@
   "packageRules": [
     {
       "matchPackageNames": [
-        "tofuutils/tenv"
+        "tofuutils/tenv",
+        "gitlab-org/cli"
       ],
       "automerge": true
     }

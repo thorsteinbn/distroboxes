@@ -19,7 +19,6 @@ RUN apt update && apt install -y \
     gnupg \
     vim \
     tmux \
-    ksshaskpass \
     zsh \
     && rm -rf /var/lib/apt/lists/*
 

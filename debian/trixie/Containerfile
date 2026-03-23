@@ -3,7 +3,7 @@ FROM debian:trixie
 # renovate: datasource=github-releases depName=tofuutils/tenv
 ENV TENV_VERSION=v4.9.3 \
 # renovate: datasource=gitlab-releases depName=gitlab-org/cli
-    GITLAB_CLI_VERSION=v1.89.0 \
+    GITLAB_CLI_VERSION=v1.90.0 \
 # renovate: datasource=github-releases depName=junegunn/fzf
     FZF_VERSION=v0.70.0
 

@@ -1,4 +1,4 @@
-FROM debian:trixie
+FROM debian:trixie-20260421
 
 # renovate: datasource=github-releases depName=tofuutils/tenv
 ENV TENV_VERSION=v4.11.1 \

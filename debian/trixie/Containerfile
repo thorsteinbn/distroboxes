@@ -5,7 +5,7 @@ ENV TENV_VERSION=v4.11.1 \
 # renovate: datasource=gitlab-releases depName=gitlab-org/cli
     GITLAB_CLI_VERSION=v1.93.0 \
 # renovate: datasource=github-releases depName=junegunn/fzf
-    FZF_VERSION=v0.70.0
+    FZF_VERSION=v0.72.0
 
 RUN apt update && apt install -y \
     git \
